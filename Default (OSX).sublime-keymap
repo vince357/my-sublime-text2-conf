@@ -1,0 +1,12 @@
+[
+  { "keys": ["super+shift+a"], "command": "expand_selection", "args": {"to": "tag"} },
+  { "keys": ["super+enter"], "command": "close_tag" },
+  { "keys": ["shift+enter"], "command": "insert_snippet", "args": {"contents": "<br />\n"}},
+  { "keys": ["super+b"], "command": "insert_snippet", "args": {"contents": "<strong> $SELECTION$1 </strong>"}},
+  { "keys": ["super+i"], "command": "insert_snippet", "args": {"contents": "<em> $SELECTION$1 </em>"}},
+  { "keys": ["super+shift+ctrl+p"], "command": "insert_snippet", "args": {"contents": "<p> $SELECTION$1 </p>"}},
+  { "keys": ["super+shift+space"], "command": "insert_snippet", "args": {"contents": "&nbsp;"}},
+  { "keys": ["shift+ctrl+super+a"], "command": "insert_snippet", "args": {"contents": "<a href=\"\"> $SELECTION$1 </a>"}},
+  { "keys": ["super+shift+c"], "command": "fold" },
+  { "keys": ["super+shift+e"], "command": "unfold" }
+]
