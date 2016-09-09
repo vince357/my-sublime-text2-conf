@@ -7,6 +7,7 @@
   { "keys": ["super+shift+ctrl+p"], "command": "insert_snippet", "args": {"contents": "<p> $SELECTION$1 </p>"}},
   { "keys": ["super+shift+space"], "command": "insert_snippet", "args": {"contents": "&nbsp;"}},
   { "keys": ["shift+ctrl+super+a"], "command": "insert_snippet", "args": {"contents": "<a href=\"\"> $SELECTION$1 </a>"}},
+  { "keys": ["shift+alt+super+/"], "command": "insert_snippet", "args": {"contents": "<!-- $SELECTION$1 -->"}},
   { "keys": ["super+shift+c"], "command": "fold" },
   { "keys": ["super+shift+e"], "command": "unfold" }
 ]
