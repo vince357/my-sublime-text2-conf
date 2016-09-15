@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+@include wsize('laptop') {
+	${1:}
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>laptop</tabTrigger>
+</snippet>

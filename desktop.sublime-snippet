@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+@include wsize('desktop') {
+	${1:}
+}
+]]></content>
+	<tabTrigger>desktop</tabTrigger>
+</snippet>
