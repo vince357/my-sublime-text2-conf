@@ -9,5 +9,9 @@
   { "keys": ["shift+ctrl+super+a"], "command": "insert_snippet", "args": {"contents": "<a href=\"\"> $SELECTION$1 </a>"}},
   { "keys": ["shift+alt+super+/"], "command": "insert_snippet", "args": {"contents": "<!-- $SELECTION$1 -->"}},
   { "keys": ["super+shift+c"], "command": "fold" },
-  { "keys": ["super+shift+e"], "command": "unfold" }
+  { "keys": ["super+shift+e"], "command": "unfold" },
+  { "keys": ["super+1"], "command": "insert_snippet", "args": {"contents": "<h1> $SELECTION$1 </h1>"} },
+  { "keys": ["super+2"], "command": "insert_snippet", "args": {"contents": "<h2> $SELECTION$1 </h2>"} },
+  { "keys": ["super+3"], "command": "insert_snippet", "args": {"contents": "<h3> $SELECTION$1 </h3>"} },
+  { "keys": ["super+4"], "command": "insert_snippet", "args": {"contents": "<h4> $SELECTION$1 </h4>"} }
 ]
