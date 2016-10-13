@@ -1,0 +1,30 @@
+{
+  "folders":
+  [
+    {
+      "path": "folder-name-of-your-site"
+    }
+  ],
+  "cmd": [
+    "sass",
+    "--watch",
+    "--stop-on-error",
+    "--no-cache",
+    "--style", "expanded",
+    "--load-path", "${file_path}",
+    "$file:${file_path}/../css/${file_base_name}.css" // assuming the source .scss is in a folder (say "scss" or whatever) and the generated css files are located in a folder above ("../") and is called "css"
+  ],
+
+  "selector": "source.sass, source.scss",
+  "line_regex": "Line ([0-9]+):",
+
+  "osx":
+  {
+    "path": "/usr/local/bin:$PATH"
+  },
+
+  "windows":
+  {
+    "shell": "true"
+  }
+}
